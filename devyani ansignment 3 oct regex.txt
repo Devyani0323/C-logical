@@ -1,0 +1,313 @@
+#include <stdio.h>
+
+int main()
+{
+ char a;
+ printf("enter the single charecter");
+ scanf("%c",&a);
+ if(a=='a'|| a=='e'||a=='i'|| a=='o'||a=='u'){
+     printf("vowel");
+ }
+ else{
+     printf("consonant");
+ }
+
+    return 0;
+}
+----------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main()
+{
+ char a;
+ printf("enter the single charecter");
+ scanf("%c",&a);
+ if(a=='q'|| a=='w'||a=='e'|| a=='r'||a=='t'||a=='y'||a=='u'||a=='i'||a=='o'||a=='p'){
+     printf("upper line");
+ }
+ else{
+     printf("input is not matched");
+ }
+
+    return 0;
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+#include<stdio.h>
+int main(){
+    char a;
+    
+    printf("enter any charecter" );
+    scanf("%c", &a);
+    if(a=='a'||a=='s'||a=='d'||a=='f'||a=='g'||a=='h'||a=='j'||a=='k'||a=='l')
+    {
+        printf("upper line");
+    }
+    
+    else{
+        printf("not");
+    }
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter any charecter");
+    scanf("%c",&ch);
+    if(ch=='z'||ch=='x'||ch=='c'||ch=='v'||ch=='b'||ch=='n'||ch=='n'||ch=='m')
+    {
+        printf("mid line");
+    }
+    else{
+        printf("input is not matched");
+    }
+    
+}
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter any charecter");
+    scanf("%c",&ch);
+    if(ch=='q'||ch=='w'||ch=='e'||ch=='r'||ch=='t'||ch=='y'||ch=='u'||ch=='i'||ch=='o'||ch=='p')
+    {
+        printf("low line");
+    }
+    else{
+        printf("input is not matched");
+    }
+    
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter any charecter");
+    scanf("%c",&ch);
+    if(ch=='p'||ch=='e'||ch=='a'||ch=='k')
+    {
+        printf("upper line");
+    }
+    else{
+        printf("input is not matched");
+    }
+    
+}
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter any number");
+    scanf("%d",&a);
+    if(a>=1 && a<=5)
+    {
+        printf("this number is present between 1 to 5");
+    }
+    else{
+        printf("this number is not present between 1 to 5");
+    }
+    
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter any number");
+    scanf("%d",&a);
+    if(a>=11 && a<=20){
+    printf("this number is present between 11 to 20");
+    }
+    else{
+        printf("this number is  not present 11 to 20");
+    }
+    
+    
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main(){
+    
+        int num;
+        printf("enter the number");
+        scanf("%d",&num);
+        if (num==1){
+            printf("one");
+        }
+        else if(num==2){
+            
+        
+        printf("two");
+        }
+        else{
+            printf("not matched");
+        }
+        return 0;
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#include<stdio.h>
+int main(){
+    int day;
+    printf("enter any day ");
+    scanf("%d",&day);
+    if(day==1){
+        printf("sunday");
+    }
+    else if(day==2){
+        printf("monday");
+    }
+    else if(day==3){
+        printf("tuesday");
+    }
+    else if(day==4){
+        printf("wednesday");
+    }
+    else if(day==5){
+        printf("thursday");
+    }
+    else if(day==6){
+        printf("friday");
+    }
+    else if(day==7){
+        printf("saturday");
+    }
+    else{
+        printf("input is not matched");
+        
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+#include<stdio.h>
+int main(){
+    int month;
+    printf("enter any month");
+    scanf("%d",&month);
+    if(month==1){
+        printf("january");
+    }
+    else if(month==2){
+        printf("feburary");
+    }
+    else if(month==3){
+        printf("march");
+    }
+    else if(month==4){
+        printf("april");
+    }
+    else if(month==5){
+        printf("may");
+    }
+    else if(month==6){
+        printf("june");
+    }
+    else if(month==7){
+        printf("july");
+    }
+    else if(month==8){
+        printf("august");
+    }
+    else if(month==9){
+        printf("september");
+    }
+    else if(month==10){
+        printf("october");
+    }
+    else if(month==11){
+        printf("november");
+    }
+    else if(month==12){
+        printf("december");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0 ;
+}
+    
+        
+    
+    
+    
+    
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#include<stdio.h>
+int main(){
+    int hindi;
+    printf("enter hindi marks");
+    scanf("%d",&hindi);
+    
+    int english;
+    printf("enter english marks");
+    scanf("%d",&english);
+    
+    int math;
+    printf("enter math marks");
+    scanf("%d",&math);
+    
+    int science;
+    printf("enter science marks");
+    scanf("%d",&science);
+    
+    int sst;
+    printf("enter sst marks");
+    scanf("%d",&sst);
+    
+    int total=500;
+    int obtained =hindi+english+math +science+sst;
+   int p = obtained*100/total;
+    printf("percentage %d \n",p);
+    
+    if (p>=80){
+        printf("grade a");
+    }
+    else if (p>=60 && p<=80){
+        printf("grade b");
+    }
+    else if(p>=50&&p<=60){
+        printf("grade c");
+    }
+    else if (p>=45&&p<=50){
+        printf("grade d");
+    }
+    else if(p>=25&&p<=45){
+        printf("grade e");
+    }
+    else if (p<=25){
+        printf("fail");
+    }
+    return 0;
+    
+    
+    }
+
+
+
+
+
+
