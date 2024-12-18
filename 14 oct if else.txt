@@ -1,0 +1,117 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter any number");
+    scanf("%d",&a);
+    
+    if(a%2==0){
+        printf("even");
+    }
+    if(a%2==1){
+        printf("odd");
+    }
+    
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2,num3;
+    printf("enter the value of n1,n2,n3:=");
+    scanf("%d%d%d",&num1,&num2,&num3);
+    
+    if(num1>num2 && num1>num3){
+        printf("num1 is maximum");
+    }
+    else if(num2>num3 && num2>num1){
+        printf("num2 is maximum");
+    }
+    else {
+        printf("num3 is maximum");
+    }
+    
+
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------
+3.
+
+#include <stdio.h>
+
+int main()
+{
+    int year;
+    printf("enter any year");
+    scanf("%d",&year);
+    
+    if(year%4==0 && year%100!=0 || year%400==0){
+        printf("leap year");
+    }
+    
+    else{
+        printf("its not a leap year");
+    }
+
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+4.
+
+#include <stdio.h>
+
+int main()
+{
+    int percentage;
+    printf("enter any percentage");
+    scanf("%d",&percentage);
+    
+    if(percentage<=100 && percentage>=90){
+        printf("grade a");
+    }
+    else if(percentage<=90 && percentage>=80){
+        printf("grade b");
+    }
+   else if(percentage<=80 && percentage>=70){
+        printf("grade c");
+    }
+    else if(percentage<=70 && percentage>=60){
+        printf("grade d");
+    }
+    else{
+        printf("fail");
+    }
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------
+5.
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter any charecter");
+    scanf("%c",&a);
+    
+    if(a=='a' ||a=='e' || a=='i' ||a=='o'||a=='u'){
+        printf("vowel");
+    }
+    else{
+        printf("consonent");
+    }
+    
+    
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+6.
+
