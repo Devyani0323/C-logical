@@ -1,0 +1,135 @@
+1.
+
+#include<stdio.h>
+int main(){
+    int n=123454321;
+    int temp=n;
+    int sum,rem=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+        
+    }
+    if(temp==sum){
+        printf("palindrome number");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+
+-------------------------------------------------------------------------------------------------------------
+2.
+(first)
+#include<stdio.h>
+int main(){
+    int n=153;
+    int temp =n;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum+rem*rem*rem;
+        n=n/10;
+    }
+    if(temp==sum){
+        printf("armstrong number");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+---------------------------------------------------------------------------------------------------------------
+2.
+(second)
+#include<stdio.h>
+int main(){
+    int n=152;
+    int temp=n;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum+rem*rem*rem;
+        n=n/10;
+    }
+    if(temp==sum){
+        printf("armstrong number");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------
+2.
+(third)
+
+#include<stdio.h>
+int main(){
+    int n=360;
+    int temp=n;
+    int sum,rem=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum+rem*rem*rem;
+        n=n/10;
+    }
+    if(temp==sum){
+        printf("armstrong number");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------
+3. 
+(neon number)
+#include<stdio.h>
+int main(){
+    char A;
+    printf("enter any charecter");
+    scanf("%c,&A");
+    if(A==a){
+        int n =153;
+        int temp=n;
+        int sum,rem=0;
+        while(n>0){
+            rem=n%10;
+            sum=sum+rem*rem*rem;
+            n=n/10;
+        }
+        if(temp==sum){
+            printf("armstrong number");
+        }
+        else{
+            printf("not armstrong");
+        }
+    }
+    else if(A==p){
+        int n=123454321;
+        int temp=n;
+        int sum,rem=0;
+        while(n>0){
+            rem=n%10;
+            sum=sum*10+rem;
+            n=n/10;
+        }
+        if(temp==sum){
+            printf("palindrome number");
+            
+        }
+        else{
+            printf("not palindrome ");
+        }
+    }
+    else if(A==c){
+        
+    }
+}
+
